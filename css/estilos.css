@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: Arial, sans-serif;
+    background: rgb(89,110,218);
+    background: radial-gradient(circle, rgba(89,110,218,1) 41%, rgba(255,255,255,1) 100%);
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    font-family: "Irish Grover", system-ui;
+}
+
+#formCadastro{
+    font-family: "Brush Script MT", cursive;
+
+}
+
+main {
+    text-align: center;
+    padding: 20px;
+    flex-grow: 1; /* Faz o main crescer e ocupar todo o espaço */
+}
+
+h1 {
+    text-align: center;
+    background-color: cadetblue;
+    margin-top: 10px;
+    padding: 20px;
+}
+
+.botaoQuiz {
+    margin-top: 13%;
+    text-align: center;
+    perspective: 1000px; /* Adiciona perspectiva para o efeito 3D */
+}
+
+.botaoQuiz a {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    color: #000000;
+    background-color: transparent;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 1);
+    transition: all 0.5s ease; /* Simplifiquei a transição */
+    border-radius: 14px;
+    padding: 8%;
+}
+
+.botaoQuiz a:hover {
+    border-color: #525353;
+    transform: scale(1.1) translateZ(20px); /* Move o botão para frente com profundidade */
+    z-index: 10; /* Coloca o botão em uma camada superior para não ser coberto */
+}
+
+.generos button{
+    font-family: "Handlee", cursive;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.alternativas{
+    margin-top: 40px;
+}
+.alternativas .artistas  button{
+    font-family: "Handlee", cursive;
+    background-color: transparent;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+    height: 130px;
+}
+
+#submit{
+    margin-top: 30px;
+}
+
+.score {
+    font: bolder;
+}
+
+.neon {
+    color: rgb(0, 255, 76); /* Cor base, pode ser alterada para um tom vibrante */
+    text-shadow: 
+        0 0 5px rgb(5, 85, 5), /* Cria um leve brilho */
+        0 0 10px #0ff, /* Cria um brilho maior */
+        0 0 15px #0ff, /* Mais brilho */
+        0 0 20px #00f, /* Pode usar uma cor secundária para efeito extra */
+        0 0 30px #00f,
+        0 0 40px #00f;
+    font-weight: bold;
+    font-size: 2em; /* Ajuste o tamanho conforme necessário */
+}
+
+#incorrect {
+    color: red;
+}
+
+.rank{
+    background-color: white;
+    font-weight: bolder;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center aligns children horizontally */
+    background-color: #28242c;
+    color: white;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 0%;
+    text-align: center;
+    bottom: 0;
+    position: fixed;
+    height: 12.7%;
+}
+
+footer h3 {
+    width: 100%; /* Makes the heading span the full width */
+    margin-bottom: 0; /* Adds space below the heading */
+}
+
+footer ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px; /* Adds space between list items */
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    justify-content: center; /* Centers list items horizontally */
+}
+
+footer li {
+    flex: 1 1 30%; /* Adjusts width of list items and allows wrapping */
+    text-align: center;
+}
+
+.container h3{
+    text-align: center;
+}
+
+.generos{
+    text-align: center;
+}
+
+#subtitle{
+    text-align: center;
+}
+
+header h3{
+    color: #ffffff;
+}
+
+#ranking p {
+    margin: 0;
+}
