@@ -118,7 +118,7 @@ function mostrarMusicasPop() {
             correta: 'Taylor Swift'
         },
         {
-            musica: 'musicas/Pop/babyjustinBieber.mp3',
+            musica: 'musicas/Pop/babyJustinBieber.mp3',
             alternativas: ['Drake', 'Justin Bieber', 'Ed Sheeran', 'Wiz Khalifa'],
             correta: 'Justin Bieber'
         },
