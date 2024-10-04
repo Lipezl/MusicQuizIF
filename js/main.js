@@ -113,7 +113,7 @@ function mostrarGeneros() {
 function mostrarMusicasPop() {
     let musicas_pop = () => [
         {
-            musica: '../musicas/Pop/shakeItOff.mp3',
+            musica: 'musicas/Pop/shakeItOff.mp3',
             alternativas: ['Taylor Swift', 'Ariana Grande', 'Katy Perry', 'Selena Gomez'],
             correta: 'Taylor Swift'
         },
