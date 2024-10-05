@@ -1,0 +1,32 @@
+[
+    {
+        "musica":  "musicas/Rock/comeAsYouAre.mp3",
+        "alternativas": ["Red", "Pearl Jam", "Foo Fighters", "Nirvana"],
+        "correta": "Nirvana"
+    },
+    {
+        "musica": "musicas/Rock/welcomeToTheJungle.mp3",
+        "alternativas": ["AC/DC", "Guns N' Roses", "Queen", "Led Ze"],
+        "correta": "Guns N' Roses"
+    },
+    {
+        "musica": "musicas/Rock/demonsImagineDragons.mp3",
+        "alternativas": ["Coldplay", "Twenty One Pilots", "Imagine Dragons", "The Weeknd"],
+        "correta": "Imagine Dragons"
+    },
+    {
+        "musica": "musicas/Rock/weWillRockYou.mp3",
+        "alternativas": ["Queen",  "AC/DC", "Guns N' Roses", "Nirvana"],
+        "correta":  "Queen"
+    },
+    {
+        "musica": "musicas/Rock/californication.mp3",
+        "alternativas":  ["Pearl Jam", "Foo Fighters", "Nirvana", "Red Hot Chili Peppers"],
+        "correta": "Red Hot Chili Peppers"
+    },
+    {
+        "musica": "musicas/Rock/numbLinkinPark.mp3",
+        "alternativas": ["Twenty One Pilots",  "Linkin Park", "The Weeknd", "Imagine Dragons"],
+        "correta": "Linkin Park"
+    }
+]

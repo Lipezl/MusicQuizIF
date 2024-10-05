@@ -1,0 +1,107 @@
+[
+    {
+        "musica": "musicas/Pop/shakeItOff.mp3",
+        "alternativas": ["Taylor Swift", "Ariana Grande", "Katy Perry", "Selena Gomez"],
+        "correta": "Taylor Swift",
+        "nomeMusicaAlternativas": ["Shake It Up", "Shake It Off", "Shut It Down", "Shake Up"],
+        "nomeMusicaCorreta": "Shake It Off"
+    },
+    {
+        "musica": "musicas/Pop/babyJustinBieber.mp3",
+        "alternativas": ["Drake", "Justin Bieber", "Ed Sheeran", "Wiz Khalifa"],
+        "correta": "Justin Bieber",
+        "nomeMusicaAlternativas": ["Baby", "Boyfriend", "Sorry", "Never Say Never"],
+        "nomeMusicaCorreta": "Baby"
+    },
+    {
+        "musica": "musicas/Pop/roarKatyPerry.mp3",
+        "alternativas": ["Katy Perry", "Adele", "Lady Gaga", "Beyoncé"],
+        "correta": "Katy Perry",
+        "nomeMusicaAlternativas": ["Firework", "Roar", "Dark Horse", "California Gurls"],
+        "nomeMusicaCorreta": "Roar"
+    },
+    {
+        "musica": "musicas/Pop/diamondsRihanna.mp3",
+        "alternativas": ["Rihanna", "Ariana Grande", "Selena Gomez", "Taylor Swift"],
+        "correta": "Rihanna",
+        "nomeMusicaAlternativas": ["We Found Love", "Umbrella", "Diamonds", "Stay"],
+        "nomeMusicaCorreta": "Diamonds"
+    },
+    {
+        "musica": "musicas/Pop/uptownFunk.mp3",
+        "alternativas": ["Ed Sheeran", "Justin Bieber", "Bruno Mars", "The Weeknd"],
+        "correta": "Bruno Mars",
+        "nomeMusicaAlternativas": ["Uptown Girl", "Treasure", "24K Magic", "Uptown Funk"],
+        "nomeMusicaCorreta": "Uptown Funk"
+    },
+    {
+        "musica": "musicas/Pop/sugarMaroon5.mp3",
+        "alternativas": ["Akon", "Bruno Mars", "Ed Sheeran", "Maroon 5"],
+        "correta": "Maroon 5",
+        "nomeMusicaAlternativas": ["Sugar", "Moves Like Jagger", "Payphone", "Animals"],
+        "nomeMusicaCorreta": "Sugar"
+    },
+    {
+        "musica": "musicas/Pop/congratulationsPostMalone.mp3",
+        "alternativas": ["Justin Bieber", "Post Malone", "Drake", "Ariana Grande"],
+        "correta": "Post Malone",
+        "nomeMusicaAlternativas": ["Sunflower", "Wow", "Congratulations", "Circles"],
+        "nomeMusicaCorreta": "Congratulations"
+    },
+    {
+        "musica": "musicas/Pop/sideToSideAriana.mp3",
+        "alternativas": ["Cardi B", "Katy Perry", "Ariana Grande", "Rihanna"],
+        "correta": "Ariana Grande",
+        "nomeMusicaAlternativas": ["Break Free", "Side to Side", "Problem", "Into You"],
+        "nomeMusicaCorreta": "Side to Side"
+    },
+    {
+        "musica": "musicas/Pop/countingStarsOneRepublic.mp3",
+        "alternativas": ["OneRepublic", "The Weeknd", "Ed Sheeran", "One Direction"],
+        "correta": "OneRepublic",
+        "nomeMusicaAlternativas": ["Apologize", "Counting Stars", "Love Runs Out", "Secrets"],
+        "nomeMusicaCorreta": "Counting Stars"
+    },
+    {
+        "musica": "musicas/Pop/wakaWakaShakira.mp3",
+        "alternativas": ["Jennifer Lopez", "Shakira", "Beyonce", "Rihanna"],
+        "correta": "Shakira",
+        "nomeMusicaAlternativas": ["La Tortura", "Hips Don't Lie", "Waka Waka", "Whenever, Wherever"],
+        "nomeMusicaCorreta": "Waka Waka"
+    },
+    {
+        "musica": "musicas/Pop/iGottaFeeling.mp3",
+        "alternativas": ["David Guetta", "LMFAO", "Flo Rida", "Black Eyed Peas"],
+        "correta": "Black Eyed Peas",
+        "nomeMusicaAlternativas": ["Let's Get It Started", "Boom Boom Pow", "I Gotta Feeling", "The Time"],
+        "nomeMusicaCorreta": "I Gotta Feeling"
+    },
+    {
+        "musica": "musicas/Pop/oneKissDuaLipa.mp3",
+        "alternativas": ["Calvin Harris", "Dua Lipa", "Ellie Goulding", "Rita Ora"],
+        "correta": "Dua Lipa",
+        "nomeMusicaAlternativas": ["One Kiss", "Don't Start Now", "Levitating", "Electricity"],
+        "nomeMusicaCorreta": "One Kiss"
+    },
+    {
+        "musica": "musicas/Pop/adventureColdplay.mp3",
+        "alternativas": ["Maroon 5", "MAGIC!", "Coldplay", "Imagine Dragons"],
+        "correta": "Coldplay",
+        "nomeMusicaAlternativas": ["Viva La Vida", "Paradise", "Adventure of a Lifetime", "Fix You"],
+        "nomeMusicaCorreta": "Adventure of a Lifetime"
+    },
+    {
+        "musica": "musicas/Pop/justGivePink.mp3",
+        "alternativas": ["Kelly Clarkson", "Alicia Keys", "Pink", "Lady Gaga"],
+        "correta": "Pink",
+        "nomeMusicaAlternativas": ["Just Like a Pill", "Just Give Me a Reason", "What About Us", "Raise Your Glass"],
+        "nomeMusicaCorreta": "Just Give Me a Reason"
+    },
+    {
+        "musica": "musicas/Pop/theHills.mp3",
+        "alternativas": ["The Weeknd", "Drake", "Khalid", "Post Malone"],
+        "correta": "The Weeknd",
+        "nomeMusicaAlternativas": ["Blinding Lights", "The Hills", "Starboy", "Can't Feel My Face"],
+        "nomeMusicaCorreta": "The Hills"
+    }
+]

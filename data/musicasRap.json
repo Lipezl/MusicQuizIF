@@ -1,0 +1,107 @@
+[
+    {
+        "musica": "musicas/Rap/godsplanDrake.mp3",
+        "alternativas": ["Kanye West", "Kendrick Lamar", "Drake", "Travis Scott"],
+        "correta": "Drake",
+        "nomeMusicaAlternativas": ["Hold On, We're Going Home", "God's Plan", "Started From The Bottom", "In My Feelings"],
+        "nomeMusicaCorreta": "God's Plan"
+    },
+    {
+        "musica": "musicas/Rap/goosebumpsTravisScostt.mp3",
+        "alternativas": ["Travis Scott", "Playboi Carti", "21 Savage", "Future"],
+        "correta": "Travis Scott",
+        "nomeMusicaAlternativas": ["Antidote", "Sicko Mode", "Goosebumps", "Highest in the Room"],
+        "nomeMusicaCorreta": "Goosebumps"
+    },
+    {
+        "musica": "musicas/Rap/heartlessKanyeWest.mp3",
+        "alternativas": ["The Weekend", "Frank Ocean", "Kanye West", "Ty Dolla Sign"],
+        "correta": "Kanye West",
+        "nomeMusicaAlternativas": ["All of the Lights", "Power", "Heartless", "Stronger"],
+        "nomeMusicaCorreta": "Heartless"
+    },
+    {
+        "musica": "musicas/Rap/inDaClub50Cent.mp3",
+        "alternativas": ["Dr. Dre", "50 Cent", "Pop Smoke", "Notorious BIG"],
+        "correta": "50 Cent",
+        "nomeMusicaAlternativas": ["In Da Club", "Just a Lil Bit", "Candy Shop", "P.I.M.P"],
+        "nomeMusicaCorreta": "In Da Club"
+    },
+    {
+        "musica": "musicas/Rap/loveYourselfEminem.mp3",
+        "alternativas": ["Eminem", "Kanye West", "Drake", "Travis Scott"],
+        "correta": "Eminem",
+        "nomeMusicaAlternativas": ["Mockingbird", "Love The Way You Lie", "Lose Yourself", "Stan"],
+        "nomeMusicaCorreta": "Lose Yourself"
+    },
+    {
+        "musica": "musicas/Rap/humbleKendrick.mp3",
+        "alternativas": ["50 Cent", "Kendrick Lamar", "Jay Z", "Drake"],
+        "correta": "Kendrick Lamar",
+        "nomeMusicaAlternativas": ["HUMBLE.", "DNA.", "Loyalty.", "Alright"],
+        "nomeMusicaCorreta": "HUMBLE."
+    },
+    {
+        "musica": "musicas/Rap/rockstarPostMalone.mp3",
+        "alternativas": ["Roddy Ricch", "Lil Baby", "Lil Wayne", "Post Malone"],
+        "correta": "Post Malone",
+        "nomeMusicaAlternativas": ["Circles", "Rockstar", "Congratulations", "Wow"],
+        "nomeMusicaCorreta": "Rockstar"
+    },
+    {
+        "musica": "musicas/Rap/crankThatSouljaBoy.mp3",
+        "alternativas": ["Soulja Boy", "Lil Wayne", "50 Cent", "Eminem"],
+        "correta": "Soulja Boy",
+        "nomeMusicaAlternativas": ["Soulja Girl", "Kiss Me Thru The Phone", "Crank That", "Turn My Swag On"],
+        "nomeMusicaCorreta": "Crank That"
+    },
+    {
+        "musica": "musicas/Rap/theBoxRoddy.mp3",
+        "alternativas": ["Gunna", "Roddy Ricch", "Lil Baby", "Lil Wayne"],
+        "correta": "Roddy Ricch",
+        "nomeMusicaAlternativas": ["Ballin'", "High Fashion", "The Box", "Die Young"],
+        "nomeMusicaCorreta": "The Box"
+    },
+    {
+        "musica": "musicas/Rap/ransomLilTecca.mp3",
+        "alternativas": ["Lil Tecca", "Lil Baby", "Lil Wayne", "Lil Durk"],
+        "correta": "Lil Tecca",
+        "nomeMusicaAlternativas": ["Melee", "Ransom", "Shots", "Bossanova"],
+        "nomeMusicaCorreta": "Ransom"
+    },
+    {
+        "musica": "musicas/Rap/allMyLife.mp3",
+        "alternativas": ["J. Cole", "Lil Durk", "Lil Uzi Vert", "Young Thug"],
+        "correta": "Lil Durk",
+        "nomeMusicaAlternativas": ["All My Life", "When We Shoot", "3 Headed Goat", "Viral Moment"],
+        "nomeMusicaCorreta": "All My Life"
+    },
+    {
+        "musica": "musicas/Rap/noRuleJCole.mp3",
+        "alternativas": ["Drake", "Travis Scott", "Lil Wayne", "J. Cole"],
+        "correta": "J. Cole",
+        "nomeMusicaAlternativas": ["No Role Modelz", "1985", "Love Yours", "Middle Child"],
+        "nomeMusicaCorreta": "No Role Modelz"
+    },
+    {
+        "musica": "musicas/Rap/maskOff.mp3",
+        "alternativas": ["Gunna", "21 Savage", "Future", "A$AP ROCKY"],
+        "correta": "Future",
+        "nomeMusicaAlternativas": ["Jumpman", "March Madness", "Mask Off", "Life Is Good"],
+        "nomeMusicaCorreta": "Mask Off"
+    },
+    {
+        "musica": "musicas/Rap/bankAccount21.mp3",
+        "alternativas": ["21 Savage", "Future", "Gunna", "Lil Baby"],
+        "correta": "21 Savage",
+        "nomeMusicaAlternativas": ["A Lot", "Bank Account", "Issa", "X"],
+        "nomeMusicaCorreta": "Bank Account"
+    },
+    {
+        "musica": "musicas/Rap/shootaCarti.mp3",
+        "alternativas": ["Playboi Carti", "Trippie Red", "NLE Choppa", "Roddy Ricch"],
+        "correta": "Playboi Carti",
+        "nomeMusicaAlternativas": ["Flex", "Magnolia", "Shoota", "Location"],
+        "nomeMusicaCorreta": "Shoota"
+    }
+]
