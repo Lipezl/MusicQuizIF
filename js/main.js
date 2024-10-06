@@ -4,6 +4,7 @@ let cadastrosArray = [];
 let artistaNome = false;
 let musicaNome = false;
 let rank = "";
+let pop, rock, trap = false;
 
 document.querySelector('#play').addEventListener('click', (event) => {
     event.preventDefault();
@@ -101,12 +102,11 @@ function mostrarGeneros() {
     let generos = () => [
         "Pop",
         "Trap",
-        "Eletronic",
         "Rock"
     ];
 
     let botoesGeneros = generos().map(genero => `
-        <button id="${genero}" class="btn btn-primary m-2 col-4">${genero}</button>
+        <button id="${genero}" class="btn btn-primary container text-center mt-5 col-4">${genero}</button>
     `).join('');
 
     subtitle.innerHTML = 'Choose a musical genre';
@@ -117,23 +117,26 @@ function mostrarGeneros() {
     `;
 
     document.querySelector('#Pop').addEventListener('click', () => {
+        cadastrosArray[cadastrosArray.length - 1].genre = "Pop";
+        localStorage.setItem("cadastrosArray", JSON.stringify(cadastrosArray));
         mostrarMusicasPop();
     });
-
+    
     document.querySelector('#Trap').addEventListener('click', () => {
+        cadastrosArray[cadastrosArray.length - 1].genre = "Trap";
+        localStorage.setItem("cadastrosArray", JSON.stringify(cadastrosArray));
         mostrarMusicasTrap();
     });
-
-    document.querySelector('#Eletronic').addEventListener('click', () => {
-        alert('Você escolheu o gênero Eletronic');
-    });
-
+    
     document.querySelector('#Rock').addEventListener('click', () => {
+        cadastrosArray[cadastrosArray.length - 1].genre = "Rock";
+        localStorage.setItem("cadastrosArray", JSON.stringify(cadastrosArray));
         mostrarMusicaRock();
-    });
+    });    
 }
 
 async function mostrarMusicasPop() {
+
     try {
         const response = await axios.get('data/musicasPop.json');
         const musicas_pop = response.data;
@@ -151,6 +154,7 @@ async function mostrarMusicasPop() {
 
 
 async function mostrarMusicasTrap() {
+    ranking.genre = "Trap";
     try {
         const  response = await axios.get('data/musicasRap.json');
         const musicas_trap = response.data;
@@ -166,10 +170,15 @@ async function mostrarMusicasTrap() {
 }
 
 async function mostrarMusicaRock (){
+    ranking.genre = "Rock";
     try {
         const response = await axios.get('data/musicasRock.json');
         const musicas_rock = response.data;
-        mostrarMusicaArtista(musicas_rock, 0);
+        if (artistaNome){
+            mostrarMusicaArtista(musicas_rock, 0);
+        } else {
+            mostrarMusicaNome(musicas_rock, 0)
+        }
     } catch(error){
         console.error(error.message);
         cont.innerHTML = '<p>Erro ao carregar as músicas Rock.</p>';
@@ -181,7 +190,6 @@ function mostrarMusicaArtista(musicas, index) {
     let cadastrosArray = localStorage ? JSON.parse(storedCadastros) : [];
 
     let jogadorAtual = cadastrosArray[cadastrosArray.length - 1];
-    
     if (index >= musicas.length) {
         subtitle.innerHTML = 'Result';
         cadastrosArray.sort((a, b) => b.correct_score - a.correct_score);
