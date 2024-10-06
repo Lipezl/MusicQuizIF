@@ -1,32 +1,107 @@
 [
     {
-        "musica":  "musicas/Rock/comeAsYouAre.mp3",
+        "musica": "musicas/Rock/comeAsYouAre.mp3",
         "alternativas": ["Red", "Pearl Jam", "Foo Fighters", "Nirvana"],
-        "correta": "Nirvana"
+        "correta": "Nirvana",
+        "nomeMusicaAlternativas": ["Smells Like Teen Spirit", "Lithium", "Come As You Are", "Heart-Shaped Box"],
+        "nomeMusicaCorreta": "Come As You Are"
     },
     {
         "musica": "musicas/Rock/welcomeToTheJungle.mp3",
-        "alternativas": ["AC/DC", "Guns N' Roses", "Queen", "Led Ze"],
-        "correta": "Guns N' Roses"
+        "alternativas": ["AC/DC", "Guns N' Roses", "Queen", "Led Zeppelin"],
+        "correta": "Guns N' Roses",
+        "nomeMusicaAlternativas": ["Paradise City", "Sweet Child O' Mine", "Welcome to the Jungle", "November Rain"],
+        "nomeMusicaCorreta": "Welcome to the Jungle"
     },
     {
         "musica": "musicas/Rock/demonsImagineDragons.mp3",
         "alternativas": ["Coldplay", "Twenty One Pilots", "Imagine Dragons", "The Weeknd"],
-        "correta": "Imagine Dragons"
+        "correta": "Imagine Dragons",
+        "nomeMusicaAlternativas": ["Radioactive", "Demons", "Believer", "Thunder"],
+        "nomeMusicaCorreta": "Demons"
     },
     {
         "musica": "musicas/Rock/weWillRockYou.mp3",
-        "alternativas": ["Queen",  "AC/DC", "Guns N' Roses", "Nirvana"],
-        "correta":  "Queen"
+        "alternativas": ["Queen", "AC/DC", "Guns N' Roses", "Nirvana"],
+        "correta": "Queen",
+        "nomeMusicaAlternativas": ["We Will Rock You", "Bohemian Rhapsody", "Another One Bites the Dust", "Somebody to Love"],
+        "nomeMusicaCorreta": "We Will Rock You"
     },
     {
         "musica": "musicas/Rock/californication.mp3",
-        "alternativas":  ["Pearl Jam", "Foo Fighters", "Nirvana", "Red Hot Chili Peppers"],
-        "correta": "Red Hot Chili Peppers"
+        "alternativas": ["Pearl Jam", "Foo Fighters", "Nirvana", "Red Hot Chili Peppers"],
+        "correta": "Red Hot Chili Peppers",
+        "nomeMusicaAlternativas": ["Californication", "Under the Bridge", "Scar Tissue", "By the Way"],
+        "nomeMusicaCorreta": "Californication"
     },
     {
         "musica": "musicas/Rock/numbLinkinPark.mp3",
-        "alternativas": ["Twenty One Pilots",  "Linkin Park", "The Weeknd", "Imagine Dragons"],
-        "correta": "Linkin Park"
+        "alternativas": ["Twenty One Pilots", "Linkin Park", "The Weeknd", "Imagine Dragons"],
+        "correta": "Linkin Park",
+        "nomeMusicaAlternativas": ["In the End", "Numb", "Crawling", "Breaking the Habit"],
+        "nomeMusicaCorreta": "Numb"
+    },
+    {
+        "musica": "musicas/Rock/backInBlack.mp3",
+        "alternativas": ["AC/DC", "Guns N' Roses", "Queen", "Nirvana"],
+        "correta": "AC/DC",
+        "nomeMusicaAlternativas": ["Back in Black", "Highway to Hell", "Thunderstruck", "You Shook Me All Night Long"],
+        "nomeMusicaCorreta": "Back in Black"
+    },
+    {
+        "musica": "musicas/Rock/greenDay.mp3",
+        "alternativas": ["Linkin Park", "Pearl Jam", "Boulevard Of Broken Dreams", "Red Hot Chili Peppers"],
+        "correta": "Boulevard of Broken Dreams",
+        "nomeMusicaAlternativas": ["Basket Case", "Boulevard of Broken Dreams", "American Idiot", "Wake Me Up When September Ends"],
+        "nomeMusicaCorreta": "Boulevard of Broken Dreams"
+    },
+    {
+        "musica": "musicas/Rock/paintItBlack.mp3",
+        "alternativas": ["AC/DC", "The Rolling Stones", "Guns N' Roses", "Nirvana"],
+        "correta": "The Rolling Stones",
+        "nomeMusicaAlternativas": ["Paint It Black", "Gimme Shelter", "Sympathy for the Devil", "Angie"],
+        "nomeMusicaCorreta": "Paint It Black"
+    },
+    {
+        "musica": "musicas/Rock/hereComesTheSun.mp3",
+        "alternativas": ["The Rolling Stones", "The Beatles", "The Doors", "The Who"],
+        "correta": "The Beatles",
+        "nomeMusicaAlternativas": ["Hey Jude", "Let It Be", "Here Comes the Sun", "Come Together"],
+        "nomeMusicaCorreta": "Here Comes the Sun"
+    },
+    {
+        "musica": "musicas/Rock/heathens.mp3",
+        "alternativas": ["Coldplay", "The Weeknd", "Imagine Dragons", "Twenty One Pilots"],
+        "correta": "Twenty One Pilots",
+        "nomeMusicaAlternativas": ["Stressed Out", "Heathens", "Ride", "Car Radio"],
+        "nomeMusicaCorreta": "Heathens"
+    },
+    {
+        "musica": "musicas/Rock/wholeLottaLove.mp3",
+        "alternativas": ["The Rolling Stones", "The Who", "Led Zeppelin", "Queen"],
+        "correta": "Led Zeppelin",
+        "nomeMusicaAlternativas": ["Whole Lotta Love", "Stairway to Heaven", "Black Dog", "Kashmir"],
+        "nomeMusicaCorreta": "Whole Lotta Love"
+    },
+    {
+        "musica": "musicas/Rock/enterSandman.mp3",
+        "alternativas": ["Metallica", "Guns N' Roses", "Nirvana", "AC/DC"],
+        "correta": "Metallica",
+        "nomeMusicaAlternativas": ["Enter Sandman", "Nothing Else Matters", "One", "Master of Puppets"],
+        "nomeMusicaCorreta": "Enter Sandman"
+    },
+    {
+        "musica": "musicas/Rock/sweetChildOMine.mp3",
+        "alternativas": ["The Rolling Stones", "The Who", "Queen", "Guns N' Roses"],
+        "correta": "Guns N' Roses",
+        "nomeMusicaAlternativas": ["Sweet Child O' Mine", "Welcome to the Jungle", "Paradise City", "November Rain"],
+        "nomeMusicaCorreta": "Sweet Child O' Mine"
+    },
+    {
+        "musica": "musicas/Rock/dontStoppinBelievin.mp3",
+        "alternativas": ["The Rolling Stones", "The Who", "Journey", "Queen"],
+        "correta": "Journey",
+        "nomeMusicaAlternativas": ["Don't Stop Believin'", "Any Way You Want It", "Open Arms", "Faithfully"],
+        "nomeMusicaCorreta": "Don't Stop Believin'"
     }
 ]
