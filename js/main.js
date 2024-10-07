@@ -49,8 +49,8 @@ document.querySelector('#play').addEventListener('click', (event) => {
         subtitle.innerHTML = 'Which mode do you want to play?';
         cont.innerHTML =  `
             <div class="mode">
-                <button id="songName" class="btn btn-primary m-2 col-4">get the name of the song right</button>
-                <button id="artistName" class="btn btn-primary m-2 col-4">correct the artist's name</button>
+                <button id="songName" class="btn btn-primary m-2 col-4">Guess the song</button>
+                <button id="artistName" class="btn btn-primary m-2 col-4">Guess the artist's</button>
             </div>
         `;
         
