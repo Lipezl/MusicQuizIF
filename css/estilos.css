@@ -41,6 +41,10 @@ h1 {
     perspective: 1000px;
 }
 
+#formCadastro {
+    font-family: Arial;
+}
+
 .botaoQuiz a {
     display: inline-block;
     padding: 10px 20px;
