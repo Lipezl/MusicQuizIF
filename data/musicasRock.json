@@ -51,7 +51,7 @@
     {
         "musica": "musicas/Rock/greenDay.mp3",
         "alternativas": ["Linkin Park", "Pearl Jam", "Boulevard Of Broken Dreams", "Red Hot Chili Peppers"],
-        "correta": "Boulevard of Broken Dreams",
+        "correta": "Green Day",
         "nomeMusicaAlternativas": ["Basket Case", "Boulevard of Broken Dreams", "American Idiot", "Wake Me Up When September Ends"],
         "nomeMusicaCorreta": "Boulevard of Broken Dreams"
     },
