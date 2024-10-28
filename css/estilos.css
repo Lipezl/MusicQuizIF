@@ -99,7 +99,7 @@ h1 {
     margin-top: 40px;
 }
 
-.alternativas .artistas button {
+.alternativas button {
     background-color: transparent;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
     height: 130px;
